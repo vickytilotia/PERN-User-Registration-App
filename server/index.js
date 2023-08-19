@@ -17,9 +17,6 @@ app.use('/auth', require("./routes/jwtAuth"));
 // dashboard 
 app.use('/dashboard',require('./routes/dashboard'));
 
-app.get('/', (req,res)=>{
-    res.send("hello")
-});
 
 
 // PORT 
